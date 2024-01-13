@@ -25,3 +25,20 @@ assets:
     method: spawnpoint
     source:
     - name: stuff/b_60.yml
+#Fast Hyenas II
+- name: msn/jp/LK05_MS201.bar
+  method: copy
+  source:
+  - name: msn/jp/LK05_MS201.bar
+    type: internal
+- name: msn/us/LK05_MS201.bar
+  multi:
+  - name: msn/fr/LK05_MS201.bar
+  - name: msn/gr/LK05_MS201.bar
+  - name: msn/it/LK05_MS201.bar
+  - name: msn/sp/LK05_MS201.bar
+  platform: pc
+  method: copy
+  source:
+  - name: msn/us/LK05_MS201.bar
+    type: internal
