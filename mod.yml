@@ -25,7 +25,6 @@ assets:
     method: spawnpoint
     source:
     - name: stuff/b_60.yml
-#Fast Hyenas II
 - name: msn/jp/LK05_MS201.bar
   method: copy
   source:
