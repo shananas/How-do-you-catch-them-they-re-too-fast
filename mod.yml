@@ -1,0 +1,27 @@
+title: They're too fast
+originalAuthor: Shananas
+game: kh2
+assets:
+- name: obj/B_NM000.mdlx
+  method: binarc
+  source:
+  - name: b_nm
+    type: bdx
+    method: copy
+    source:
+    - name: stuff/b_nm_0.bdx
+- name: ard/lk05.ard
+  multi:
+  - name: ard/jp/lk05.ard
+  - name: ard/us/lk05.ard
+  - name: ard/fr/lk05.ard
+  - name: ard/gr/lk05.ard
+  - name: ard/it/lk05.ard
+  - name: ard/sp/lk05.ard
+  method: binarc
+  source:
+  - name: b_60 
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: stuff/b_60.yml
